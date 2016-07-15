@@ -1,0 +1,46 @@
+/** 
+ * 搜狗页面样式
+ */
+ 
+ /* css reset*/
+
+ *{
+    margin:0;
+    padding:0;
+ }
+.sogou-menu{
+    position: absolute;
+    top:0;
+    right:0;
+    font-size: 12px
+ }
+ .sogou-menu a{
+    color:#00c;
+    display: inline-block;
+    padding: 12px;
+
+ }
+ .sogou-menu i{
+    display:inline-block;
+    width: 17px;
+    height:14px;
+    background-image: url(../img/1.png);
+    position:relative ;
+    top: 3px;
+    right: 3px;
+ }
+
+.sogou-menu i.hf{
+    background-position :-68px 0;
+}
+
+.sogou-menu i.sz{
+    background-position :-127px 0;
+}
+.sogou-menu i.dl{
+    background-position:-199px 0;
+}
+.span-sogou menu.separte{
+    float：left
+    height:12px;
+}
